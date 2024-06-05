@@ -39,7 +39,6 @@ env = Environment(
     "-Wunused",
     "-Werror",
     "-Wshadow",
-    "-Wno-vla-cxx-extension",
   ] + ccflags_asan,
   LDFLAGS=ldflags_asan,
   LINKFLAGS=ldflags_asan,

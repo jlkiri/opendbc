@@ -13,7 +13,6 @@
 #include "cereal/gen/cpp/log.capnp.h"
 #endif
 
-#include "opendbc/can/logger.h"
 #include "opendbc/can/common_dbc.h"
 
 #define INFO printf
